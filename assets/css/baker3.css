@@ -43,7 +43,7 @@ ul.list_mixed, ul.list_check, ul.list_star, ul.list_idea, ul.list_custom {
 }
 ul.list_mixed li, ul.list_check li, ul.list_star li, ul.list_idea li, ul.list_custom li {
 	position: relative;
-	margin: 0 0 20px 0;
+	margin: 0 0 10px 0;
 	padding-left: 50px
 }
 ul.list_mixed li:after, ul.list_check li:after, ul.list_star li:after, ul.list_idea li:after, ul.list_custom li:after {
@@ -51,7 +51,7 @@ ul.list_mixed li:after, ul.list_check li:after, ul.list_star li:after, ul.list_i
 	width: 70px;
 	height: 1px;
 	overflow: hidden;
-	background: rgba(0, 0, 0, .08);
+	background: rgba(0, 0, 0, .0);
 	position: absolute;
 	left: 0;
 	bottom: -11px
@@ -154,9 +154,9 @@ body:not(.template-slider) #Header {
 body.header-below:not(.template-slider) #Header {
 	padding-top: 0px;
 }
-#Footer .widgets_wrapper {
+/* #Footer .widgets_wrapper {
 	padding: 70px 0;
-}
+} */
 body, button, span.date_label, .timeline_items li h3 span, input[type="submit"], input[type="reset"], input[type="button"], input[type="text"], input[type="password"], input[type="tel"], input[type="email"], textarea, select, .offer_li .title h3 {
 	font-family: "Inter", Helvetica, Arial, sans-serif;
 }
@@ -223,7 +223,7 @@ h3 {
 	letter-spacing: 0px;
 }
 h4 {
-	font-size: 24px;
+	font-size: 23px;
 	line-height: 30px;
 	font-weight: 500;
 	letter-spacing: 0px;
@@ -747,7 +747,7 @@ h6 {
 }
 @media only screen and (max-width: 767px) {
 	#Top_bar a.responsive-menu-toggle {
-		top: 75px;
+		top: 34px;
 	}
 	.mobile-header-mini #Top_bar #logo {
 		height: 50px!important;
@@ -2519,7 +2519,7 @@ body.mobile-side-slide {
 	margin: 13px 13px 0 0
 }
 #Side_slide .close-wrapper a.close i {
-	font-size: 22px;
+	font-size: 32px;
 	line-height: 34px;
 }
 #Side_slide .extras {
