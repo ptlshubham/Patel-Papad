@@ -129,9 +129,9 @@ ul.list_mixed li:before, ul.list_check li:before, ul.list_star li:before, ul.lis
 	position: relative;
 	overflow: hidden;
 	width: 42px;
-	height: 42px;
+	height: 75px;
 	line-height: 42px!important;
-	font-size: 20px!important;
+	font-size: 30px!important;
 	margin: 0;
 	text-align: center;
 	text-decoration: none!important;
@@ -139,7 +139,7 @@ ul.list_mixed li:before, ul.list_check li:before, ul.list_star li:before, ul.lis
 	transition: color .1s ease-in-out, background-color .1s ease-in-out, border-color .1s ease-in-out;
 }
 .footer-copy-center #Footer .footer_copy #back_to_top {
-	float: none;
+	/* float: none; */
 	margin: -10px 0 20px;
 }
 html {
@@ -181,7 +181,7 @@ blockquote {
 body {
 	font-size: 16px;
 	line-height: 26px;
-	font-weight: 400;
+	font-weight: 500;
 	letter-spacing: 0px;
 }
 .big {
@@ -191,8 +191,8 @@ body {
 	letter-spacing: 0px;
 }
 #menu>ul>li>a, a.action_button, #overlay-menu ul li a {
-	font-size: 16px;
-	font-weight: 500;
+	font-size: 18px;
+	font-weight: 600;
 	letter-spacing: 0px;
 }
 #overlay-menu ul li a {
@@ -217,7 +217,7 @@ h2 {
 	letter-spacing: 0px;
 }
 h3 {
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 50px;
 	font-weight: 700;
 	letter-spacing: 0px;
@@ -522,8 +522,8 @@ h6 {
 		letter-spacing: 0px;
 	}
 	h4 {
-		font-size: 14px;
-		line-height: 19px;
+		font-size: 20px;
+		line-height: 25px;
 		letter-spacing: 0px;
 	}
 	h5 {
@@ -656,7 +656,7 @@ h6 {
 	background-color: #f7f7f7!important;
 }
 .footer_button {
-	color: #65666C!important;
+	color: #e20a0a!important;
 	background-color: transparent;
 	box-shadow: none!important;
 }
@@ -1606,7 +1606,7 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 		width: 100%;
 		left: 0;
 		top: -60px;
-		height: 60px;
+		height: 115px;
 		z-index: 701;
 		background: #fff;
 		opacity: .97;
@@ -1653,7 +1653,7 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 	}
 	#Top_bar.is-sticky #logo img.logo-sticky {
 		display: inline;
-		max-height: 35px;
+		max-height: 101px;
 		width: auto
 	}
 	#Top_bar.is-sticky .menu_wrapper {
@@ -1663,7 +1663,7 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 		padding: 15px 0
 	}
 	#Top_bar.is-sticky .menu>li>a, #Top_bar.is-sticky .menu>li>a span {
-		line-height: 30px
+		line-height: 85px
 	}
 	#Top_bar.is-sticky .menu>li>a:after {
 		top: auto;
@@ -1928,7 +1928,7 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 	}
 }
 #Header_wrapper, #Intro {
-	background-color: #c98d83;
+	background-color: #ead7b5;
 }
 #Subheader {
 	background-color: rgba(201, 141, 131, 1);
@@ -1987,7 +1987,7 @@ h2, h2 a, h2 a:hover {
 	color: #783b31;
 }
 h3, h3 a, h3 a:hover {
-	color: #783b31;
+	color: #e20a0a;
 }
 h4, h4 a, h4 a:hover, .style-simple .sliding_box .desc_wrapper h4 {
 	color: #783b31;
@@ -2051,7 +2051,7 @@ hr.hr_color, .hr_color hr, .hr_dots span {
 	}
 }
 #Header .top_bar_left, .header-classic #Top_bar, .header-plain #Top_bar, .header-stack #Top_bar, .header-split #Top_bar, .header-fixed #Top_bar, .header-below #Top_bar, #Header_creative, #Top_bar #menu, .sticky-tb-color #Top_bar.is-sticky {
-	background-color: #c98d83;
+	background-color: #ead7b5;
 }
 #Top_bar .wpml-languages a.active, #Top_bar .wpml-languages ul.wpml-lang-dropdown {
 	background-color: #c98d83;
@@ -2066,7 +2066,7 @@ hr.hr_color, .hr_color hr, .hr_dots span {
 	color: #333333;
 }
 #Top_bar .menu>li>a, #Top_bar #menu ul li.submenu .menu-toggle {
-	color: #fff;
+	color: #e20a0a;
 }
 #Top_bar .menu>li.current-menu-item>a, #Top_bar .menu>li.current_page_item>a, #Top_bar .menu>li.current-menu-parent>a, #Top_bar .menu>li.current-page-parent>a, #Top_bar .menu>li.current-menu-ancestor>a, #Top_bar .menu>li.current-page-ancestor>a, #Top_bar .menu>li.current_page_ancestor>a, #Top_bar .menu>li.hover>a {
 	color: #783b31;
@@ -2169,7 +2169,7 @@ hr.hr_color, .hr_color hr, .hr_dots span {
 	color: #353139;
 }
 #Footer h1, #Footer h1 a, #Footer h1 a:hover, #Footer h2, #Footer h2 a, #Footer h2 a:hover, #Footer h3, #Footer h3 a, #Footer h3 a:hover, #Footer h4, #Footer h4 a, #Footer h4 a:hover, #Footer h5, #Footer h5 a, #Footer h5 a:hover, #Footer h6, #Footer h6 a, #Footer h6 a:hover {
-	color: #783b31;
+	color: #e20a0a;
 }
 #Footer .themecolor, #Footer .widget_meta ul, #Footer .widget_pages ul, #Footer .widget_rss ul, #Footer .widget_mfn_recent_comments ul li:after, #Footer .widget_archive ul, #Footer .widget_recent_comments ul li:after, #Footer .widget_nav_menu ul, #Footer .widget_price_filter .price_label .from, #Footer .widget_price_filter .price_label .to, #Footer .star-rating span {
 	color: #783b31;
@@ -2360,7 +2360,7 @@ input[type="date"]:focus, input[type="email"]:focus, input[type="number"]:focus,
 }
 @media only screen and ( max-width: 767px) {
 	#Top_bar {
-		background-color: #c98d83 !important;
+		background-color: #ead7b5  !important;
 	}
 	#Action_bar {
 		background-color: #FFFFFF !important;
@@ -2786,6 +2786,7 @@ body.mobile-side-slide {
 	}
 	.mobile-sticky #Top_bar.is-sticky {
 		position: fixed !important;
+		height: 120px;
 	}
 	#Top_bar #menu {
 		float: left;
